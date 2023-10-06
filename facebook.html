@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Facebook</title>
+</head>
+
+<style>
+
+    body {
+        background-color: rgb(233, 233, 233);
+    }
+
+    .row{
+       
+        width: 50em;
+        height: 60em;
+        display: flex;
+    }
+    .col{
+        background-color: aqua;
+        flex: 100%;
+        height: 11em;
+        margin: 0.5em;
+        position: relative;
+    }
+
+    .img, .img2, .img3, .img4, .img5 {
+        background-size: contain;
+    }
+
+    .img1{
+        background-image: url(me1.jpeg);
+    }
+
+    .img2{
+        background-image: url(me.jpeg);
+    }
+    .img3{
+        background-image: url(2.jpeg);
+    }
+
+    .img4{
+        background-image: url(3.jpeg);
+    }
+    .img5{
+        background-image: url(4.jpeg);
+    }
+
+    h5 {
+        bottom: 0;
+        margin: 1em;
+        position: absolute;
+    }
+
+    .c-white {
+        color: white;
+    }
+
+    .br {
+        border-radius: 1em;
+    }
+    .p-img-1, .p-img-2, .p-img-3, .p-img-4 {
+        background-size: cover;
+        width: 2em;
+        height: 2em;
+        border-radius: 10em;
+        position: absolute;
+        margin: 1em;
+        border: 0.3em solid blue;
+    }
+
+    .p-img-2 {
+        background-image: url(me1.jpeg);
+    }
+    .p-img-3 {
+        background-image: url(me.jpeg);
+    }
+    .p-img-4 {
+        background-image: url(4.jpeg);
+    }
+    .p-img-5 {
+        background-image: url(3.jpeg);
+    }
+
+    .story1-1 {
+        width: 100%;
+        height: 3em;
+        background-color: white;
+        bottom: 0;
+        position: absolute;
+        border-radius: 0em 0em 0.9em 1em;
+    }
+
+
+    h4{
+        text-align: center;
+    }
+
+    .fa-plus-circle {
+        font-size: 2.5em;
+        margin: 2.6em 0em 0em 1.2em;
+        z-index: 1;
+        position: absolute;
+        border: 0.1em solid white;
+        border-radius: 4em;
+        color: blue;
+    }
+
+    .circle {
+        width: 4em;
+        height: 4em;
+        background-color: white;
+        border-radius: 4em;
+        position: absolute;
+        left: 7em;
+        top: 3.5em;
+    }
+
+    .fa-arrow-right {
+        margin: 0.5em 0em 0em 0.5em;
+        font-size: 2em;
+    }
+
+
+</style>
+<body>
+    <div class="row">
+
+        <!--Story 1-->
+        <div class="col img1 br">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        <div class="story1-1">
+            <h4>Create Story</h4>
+        </div>
+       
+        </div>
+
+        <!--Story 2-->
+        <div class="col img2 br">
+            <div class="p-img-2"></div>
+            <h5 class="c-white">M. Moreedyah</h5>
+        </div>
+
+        <!--Story 3-->
+
+        <div class="col img3 br">
+            <div class="p-img-3"></div>
+            <h5 class="c-white">Victor Onazi</h5>
+        </div>
+
+        <!--Story 4-->
+
+        <div class="col img4 br">
+            <div class="p-img-3"></div>
+            <h5 class="c-white">Dere Mariam</h5>
+        </div>
+
+        <!--Story 5-->
+
+        <div class="col img5 br">
+            <div class="p-img-4"></div>
+            <h5 class="c-white">Moji. Makanjuola</h5>
+            
+            <div class="circle">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
